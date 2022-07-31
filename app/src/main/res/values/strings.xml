@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application 10</string>
+    <string name="one_way">One Way</string>
+    <string name="_1_traveller">1 Traveller</string>
+    <string name="dca">DCA</string>
+    <string name="flights">Flights</string>
+</resources>

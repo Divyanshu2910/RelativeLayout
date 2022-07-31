@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/space"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/space2"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/space2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space"
+        android:layout_marginTop="10dp"
+        android:text="Space Stations"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/Rocket"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_toRightOf="@+id/space"
+        android:src="@mipmap/rocket" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="110dp"
+        android:layout_toEndOf="@id/space2"
+        android:text="@string/flights"
+        android:id="@+id/Flights"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Rovers"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_toRightOf="@id/Rocket"
+        android:src="@mipmap/rovers" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rovers"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/Rocket"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="110dp"
+        />
+
+    <TextView
+        android:id="@+id/DCA"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/space2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="@string/dca"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/space2"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="47dp"
+        android:layout_toRightOf="@id/DCA"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="MARS"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/leftToRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/space2"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:src="@drawable/images"
+        android:textColor="@color/white"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/ONE"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DCA"
+        android:layout_marginTop="18dp"
+        android:background="@color/white"
+        android:layout_marginStart="10dp"
+        android:text="@string/one_way"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DCA"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ONE"
+        android:layout_marginTop="18dp"
+        android:background="@color/white"
+        android:text="@string/_1_traveller"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+</RelativeLayout>
+
