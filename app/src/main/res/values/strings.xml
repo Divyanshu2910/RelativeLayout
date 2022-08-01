@@ -4,4 +4,7 @@
     <string name="_1_traveller">1 Traveller</string>
     <string name="dca">DCA</string>
     <string name="flights">Flights</string>
+    <string name="rovers">Rovers</string>
+    <string name="mars">MARS</string>
+    <string name="space_stations">Space Stations</string>
 </resources>

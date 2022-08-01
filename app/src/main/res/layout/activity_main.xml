@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/space"
         android:layout_marginTop="10dp"
-        android:text="Space Stations"
+        android:text="@string/space_stations"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -30,7 +30,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="60dp"
-        android:layout_toRightOf="@+id/space"
+        android:layout_toEndOf="@+id/space"
         android:src="@mipmap/rocket" />
 
     <TextView
@@ -51,16 +51,17 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="60dp"
-        android:layout_toRightOf="@id/Rocket"
-        android:src="@mipmap/rovers" />
+        android:layout_toEndOf="@id/Rocket"
+        android:src="@mipmap/rovers"
+        android:contentDescription="TODO" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rovers"
-        android:textSize="18dp"
+        android:text="@string/rovers"
+        android:textSize="18sp"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:layout_toRightOf="@id/Rocket"
+        android:layout_toEndOf="@id/Rocket"
         android:layout_marginStart="80dp"
         android:layout_marginTop="110dp"
         />
@@ -84,10 +85,10 @@
         android:layout_below="@id/space2"
         android:layout_marginStart="30dp"
         android:layout_marginTop="47dp"
-        android:layout_toRightOf="@id/DCA"
+        android:layout_toEndOf="@id/DCA"
         android:background="@color/black"
         android:gravity="center"
-        android:text="MARS"
+        android:text="@string/mars"
         android:textColor="@color/white"
         android:textSize="20sp" />
 
@@ -121,8 +122,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/DCA"
         android:layout_marginStart="180dp"
-        android:layout_marginTop="25dp"
-        />
+        android:layout_marginTop="15dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp" />
 
     <TextView
         android:layout_width="wrap_content"
